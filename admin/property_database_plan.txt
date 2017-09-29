@@ -1,0 +1,59 @@
+Task hari ini buat database
+dbName : property
+Table : rumah_kategori._
+	1.id 
+	2.type
+	3.luas
+	4.description
+
+Table : rumah._
+	1.id
+	2.nama
+	3.kategori_id
+	4.harga
+	5.lokasi
+	6.photo
+	7.blok_rumah	: input menggunakan array. = pake javascript untuk inputnya
+	8.jumlah_rumah	: input menggunakan array. = pake javascript untuk inputnya
+
+Table : pembeli._
+	1.id
+	2.nama
+	3.jenis_kelamin
+	4.umur
+	5.no_telp
+	6.alamat
+	7.pekerjaan
+
+Table : pemesanan._
+	1. id
+	2. tanggal_pemesanan
+	3. user_id
+	4. rumah_id
+	5. pembeli_id
+	6. blok_rumah
+	7. no_rumah
+
+Table : users._
+	1.id
+	2.nama
+	3.username
+	4.email
+	5.password
+	6.photo
+	7.role
+
+
+
+
+
+
+menu property:
+	1. Dashboard
+	2. Pemesanan
+	3. Pembeli
+	4. Produk Rumah
+	   1. Kategori
+	   2. Rumah
+	5. Users
+	
