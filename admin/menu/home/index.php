@@ -1,3 +1,9 @@
+<style type="text/css">
+    #barChart {
+        width: 100%;
+        height: 310px;
+    }
+</style>
 <!-- Icon Cards -->
 <?php 
 	$model = new Model_mysqli();
